@@ -23,10 +23,10 @@ export default function BookScreen() {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Selected Location</Text>
         <View style={styles.locationCard}>
-          <Text style={styles.locationName}>Red Cross Blood Bank</Text>
+          <Text style={styles.locationName}>Indus Blood Bank</Text>
           <View style={styles.locationDetail}>
             <MapPin size={16} color="#4A5568" />
-            <Text style={styles.locationText}>123 Medical Center Ave</Text>
+            <Text style={styles.locationText}>Karachi,Pakistan</Text>
           </View>
           <View style={styles.locationDetail}>
             <Clock size={16} color="#4A5568" />

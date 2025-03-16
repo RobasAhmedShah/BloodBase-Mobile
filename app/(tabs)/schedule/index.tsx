@@ -7,8 +7,8 @@ import Animated, { FadeInUp } from 'react-native-reanimated';
 export default function ScheduleScreen() {
   const upcomingAppointment = {
     date: 'Tomorrow, 10:00 AM',
-    location: 'City Blood Bank',
-    address: '123 Medical Center Ave',
+    location: 'Indus Blood Bank',
+    address: 'Karachi,Pakistan',
     status: 'Confirmed'
   };
 
@@ -61,7 +61,7 @@ export default function ScheduleScreen() {
                 style={styles.bankImage}
               />
               <View style={styles.bankInfo}>
-                <Text style={styles.bankName}>Red Cross Blood Bank</Text>
+                <Text style={styles.bankName}>Indus Blood Bank</Text>
                 <View style={styles.bankDetail}>
                   <Clock size={16} color="#4A5568" />
                   <Text style={styles.bankTime}>Open 9AM - 5PM</Text>

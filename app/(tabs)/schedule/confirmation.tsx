@@ -33,10 +33,10 @@ export default function ConfirmationScreen() {
           
           <View style={styles.detailRow}>
             <MapPin size={20} color="#4A5568" />
-            <Text style={styles.detailText}>Red Cross Blood Bank</Text>
+            <Text style={styles.detailText}>Indus Blood Bank</Text>
           </View>
           
-          <Text style={styles.address}>123 Medical Center Ave, Downtown</Text>
+          <Text style={styles.address}>Karachi,Pakistan</Text>
         </View>
 
         <View style={styles.qrContainer}>

@@ -6,7 +6,7 @@ export default function HomeScreen() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.greeting}>Hello, Sarah</Text>
+        <Text style={styles.greeting}>Hello, NIC</Text>
         <Text style={styles.subtitle}>Ready to save lives today?</Text>
       </View>
 
@@ -63,7 +63,7 @@ export default function HomeScreen() {
           </View>
         </View>
         <Text style={styles.appointmentDate}>Tomorrow, 10:00 AM</Text>
-        <Text style={styles.appointmentLocation}>City Blood Bank, Downtown</Text>
+        <Text style={styles.appointmentLocation}>Indus Blood Bank, Karachi</Text>
       </View>
     </ScrollView>
   );
